@@ -13,3 +13,7 @@ sentence = "The quick brown fox jumps of over the lazy dog."
 print("welcome to my program", full_name, "" "!")
 
 #debugging is fixing problems in my code!
+    #syntax Error
+    #Logic Error
+    #Run Time Error
+    #syntax error is when you misspell a variable 
