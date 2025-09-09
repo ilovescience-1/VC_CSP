@@ -11,3 +11,5 @@ full_name= first_name + " " + last_name
 sentence = "The quick brown fox jumps of over the lazy dog."
 
 print("welcome to my program", full_name, "" "!")
+
+#debugging is fixing problems in my code!
