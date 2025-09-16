@@ -6,12 +6,20 @@ utillities = float(input("what is your monthly utillities"))
 groceries = float(input("what is your monthly groceries: "))
 transportation = float(input("what is your monthly transportation: "))
 
+<<<<<<< HEAD
 total_expenses = rent + utillities + groceries + transportation
+=======
+total_expenses = rent + utilities + groceries + transportation
+>>>>>>> 2f03b9e6dcf3a0a40981d08de96026003a6533fb
 saving = income * 0.10
 spending_money = income - (total_expenses + saving)
 
 rent_percent = (rent/income) * 100
+<<<<<<< HEAD
 utillities_percent = (utillities/income) * 100
+=======
+utillities_percent = (utilities/income) * 100
+>>>>>>> 2f03b9e6dcf3a0a40981d08de96026003a6533fb
 groceries_percent = (groceries/income) * 100
 transportation_percent = (transportation/income) * 100
 savings_percent = (saving/income) * 100
@@ -21,4 +29,8 @@ print(f"Your utilities are ${utillities:.2f} and that is {utillities_percent:.0f
 print(f"Your groceries are ${groceries:.2f} and that is {groceries_percent:.0f}% of your income.")
 print(f"Your transportation is ${transportation:.2f} and that is {transportation_percent:.0f}% of your income.")
 print(f"\nYou should save ${saving:.2f} a month, that is {savings_percent:.0f}% of your income.")
+<<<<<<< HEAD
 print(f"\nYou have ${spending_money:.2f} of spending money each month!")
+=======
+print(f"\nYou have ${spending_money:.2f} of spending money each month!")
+>>>>>>> 2f03b9e6dcf3a0a40981d08de96026003a6533fb
