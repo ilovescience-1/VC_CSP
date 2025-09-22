@@ -1,10 +1,9 @@
-# VC 6th Time Of Day python practice
+# VC time of day practice
 
-time = int(input("What time is it?"))
-
-if time >=0:
-    print("Goodmorning")
-elif time <=12:
-    print("Good afternoon")
-elif time <=21:
-    print("Goodnight")
+time = int(input("what is the hour time in military?"))
+if time <= 0:
+    print("Good Morning!")
+elif time <= 1200:
+    print("Good afternoon!")
+elif time <= 1700:
+    print("Good evening!")
