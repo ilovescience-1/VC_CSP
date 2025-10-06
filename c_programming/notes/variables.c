@@ -45,3 +45,6 @@ this is a comment
 // the & symbol is the same as = in python and adding it to the correct space
 // C wont let the user do the space because it will break the code
 //strings are multiple charachters
+//constant you put const makes it so i cannot be changes
+//constast cannot be changed
+//stdio.h its what is allowing us to use our fgets
