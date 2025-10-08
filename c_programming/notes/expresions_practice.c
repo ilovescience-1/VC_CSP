@@ -3,17 +3,14 @@
 #include <math.h>
 
 int main(void){
-    int equation_1 = 1;
-    int equation_2 = 9;
-    int equation_3 = 2;
-    int equation_4 = 26;
-    int equation_5 = -1;
-    int equation_6 = -3;
-    int equation_7 = 4;
-    int equation_8 = 23;
-    int equation_9 = 10;
-
-    printf("7-24/8*4+6 = %f\n,", (int) 7-24/8*4+6 =);
-
+    printf("7-24/8*4+6= %d\n",(int)7-24/8*4+6);
+    printf("18/3-7+2*5= %d\n",(int) 18/3-7+2*5);
+    printf("6*4/12+72/8-9= %d\n", (int)6*4/12+72/8-9);
+    printf("{17-6/2}+4*3= %d\n", (int)(17-6/2)+4*3);
+    printf("-2(1*4-2/2)+(6+2-3)= %d\n", (int)-2*(1*4-2/2)+(6+2-3));
+    printf("-1*[(3-4*7)]-2*24/6= %d\n", (int)-1*((3-4*7)/5)-2*24/6);
+    printf("(3*5^2/15)-(5-2^2)= %d\n", (int)(3*5^2/15)-(5-2^2));
+    printf("(1^4*2^2+3^3)-2^5/4= %d\n", (int)(1^4*2^2+3^3)-2^5/4);
+    printf("(22/2-2.5)^2+(4-6/6)^2 %d\n", (int)(22/2-2.5)^2+(4-6/6)^2);
     return 0;
 }
