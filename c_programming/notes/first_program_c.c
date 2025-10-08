@@ -1,8 +1,14 @@
 // VC 6th first program C
 
 #include <stdio.h>
-int main() {
-    char name[] = "please enter your name";
-    printf("%s %s %s\n", "Hello", name, "welcome to your first C program!");
+
+int main(void){
+    char name [55];
+    
+    printf("what is your name?: ");
+    
+    fgets(name, sizeof, (name), stdinz0;
+    
+    printf("Hello %s", name);
     return 0;
 }
