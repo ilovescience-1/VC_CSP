@@ -7,7 +7,7 @@ int main(void){
     
     printf("what is your name?: ");
     
-    fgets(name, sizeof, (name), stdinz0;
+    fgets(name, sizeof, (name), stdin);
     
     printf("Hello %s", name);
     return 0;

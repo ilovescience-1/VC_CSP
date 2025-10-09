@@ -14,15 +14,15 @@ int main() {
     char favorite_subject[] = "Math";
 
     printf("Name: %s\n", name);
-    printf("Lucky Number (1-10): %d\n", luckyNumber);
-    printf("GPA: %.2f\n", gpa);
+    printf("Lucky Number (1-10): %d\n", lucky_number);
+    printf("GPA: %.2f\n", "gpa");
     printf("Breakfast: %s\n", breakfast);
-    printf("Favorite Color: %s\n", favoriteColor);
-    printf("School Name: %s\n", schoolName);
-    printf("Current Year: %d\n", currentYear);
-    printf("Eye Color: %s\n", eyeColor);
+    printf("Favorite Color: %s\n", favorite_color);
+    printf("School Name: %s\n", school_name);
+    printf("Current Year: %d\n", current_year);
+    printf("Eye Color: %s\n", eye_color);
     printf("Age: %d\n", age);
-    printf("Favorite Subject: %s\n", favoriteSubject);
+    printf("Favorite Subject: %s\n", favorite_subject);
 
     return 0;
 }
