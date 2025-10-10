@@ -3,9 +3,6 @@
 #include<stdio.h>
 #include<string.h>
 
-#include <stdio.h>
-#include <string.h>
-
 int main(void){
     int time;
     char name[1000];
