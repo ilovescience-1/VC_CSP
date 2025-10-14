@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 <<<<<<< HEAD
-int main() {
+int main(void) {
     char name[] = "please enter your name";
     printf("%s %s %s\n", "Hello", name, "welcome to your first C program!");
 =======
