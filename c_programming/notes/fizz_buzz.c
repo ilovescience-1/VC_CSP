@@ -3,6 +3,10 @@
 
 int main(void){
     for(int x = 5;);
-    printf("%s Fizz!\n");
+    printf("%s Buzz!\n");
+
+    for (int x = 3;);
+    printf("%s  Fizz!\n")
+
     return 0;
 }
