@@ -2,10 +2,12 @@
 #include<stdio.h>
 
 int main(void){
-    char* get_name(void)
-    char *name;
-    printf("What is your name: ");
-    printf("%s Hello!\n", name);
-    return name;
-    return 0;
+    name("Hello mom");
+    name("Hello dad");
+    name("Hello Valeria");
+    name("Hello Mateo");
+    name("Hello Violett");
+    name("Hello Milan");
+    printf("%d\n", name);
+    return
 }
