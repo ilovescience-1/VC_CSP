@@ -1,13 +1,18 @@
 // VC 6th Hello World Update
-#include<stdio.h>
+
+#include <stdio.h>
+
+void hello(char* name){
+    printf("hello %s\n", name);
+
+}
 
 int main(void){
-    name("Hello mom");
-    name("Hello dad");
-    name("Hello Valeria");
-    name("Hello Mateo");
-    name("Hello Violett");
-    name("Hello Milan");
-    printf("%d\n", name);
-    return
+    hello("Charlie");
+    hello("Ms LaRose");
+    hello("computer");
+    hello("dog");
+    hello("cat");
+
+    return 0;
 }
